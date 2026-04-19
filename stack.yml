@@ -54,6 +54,18 @@ services:
   - name: data
     size: 20
 
+- name: asdf
+  title: dfghsth
+  service: dfghsth/nginx
+
+- name: asdfaa
+  title: test1
+  service: wodby/nginx
+
+- name: asdfee
+  title: test2
+  service: test/nginx
+
 - name: valkey
   title: Valkey
   service: valkey
