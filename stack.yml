@@ -58,10 +58,6 @@ services:
   title: dfghsth
   service: dfghsth/nginx
 
-- name: asdfee
-  title: test2
-  service: test/nginx
-
 - name: valkey
   title: Valkey
   service: valkey
