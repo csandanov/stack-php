@@ -18,7 +18,7 @@ services:
   service: php-nginx
   required: true
   workloads:
-    id: "main"
+  - id: "main"
     containers:
     - name: nginx
       env:
@@ -40,7 +40,7 @@ services:
   service: php-httpd
   disabled: true
   workloads:
-    id: "main"
+  - id: "main"
     containers:
     - name: httpd
       env:
