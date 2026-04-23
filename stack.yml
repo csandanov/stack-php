@@ -18,7 +18,7 @@ services:
   service: php-nginx
   required: true
   workloads:
-  - id: "main"
+  - id: "mainf"
     containers:
     - name: nginx
       env:
